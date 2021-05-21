@@ -7,9 +7,11 @@ import {
 
 import Context from './page-context'
 import Hello from './page-hello'
-import AceEditor from './page-test'
+import AceEditor from './page-editor'
 import Count from './page-count'
 import Drag from './page-drag'
+import ReactAce from './page-react-ace'
+import CodeMirror from './page-codemirror'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +22,8 @@ ReactDOM.render(
         <Route path="/editor" component={AceEditor} />
         <Route path="/count" component={Count} />
         <Route path="/drag" component={Drag} />
+        <Route path="/reactAce" component={ReactAce} />
+        <Route path="/codeMirror" component={CodeMirror} />
         <Redirect from="/" to="/hello" />
       </Switch>
     </Router>

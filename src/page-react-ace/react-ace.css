@@ -1,0 +1,13 @@
+.ace_placeholder {
+  font-size: 14px !important;
+}
+.ace-xcode .ace_comment{
+  color: #999;
+}
+.ace-xcode .ace_marker-layer .ace_active-line{
+  background-color: #e8f2ff;
+}
+
+.ace-xcode .ace_print-margin{
+  width: 0;
+}

@@ -32,7 +32,18 @@ const Frame = props => {
       path: '/drag',
       text: 'Drag', 
     },
+    {
+      key: 'reactAce',
+      path: '/reactAce',
+      text: 'ReactAce', 
+    },
+    {
+      key: 'codeMirror',
+      path: '/codeMirror',
+      text: 'CodeMirror', 
+    },
   ]
+  
 
   return (
     <div className="frame">

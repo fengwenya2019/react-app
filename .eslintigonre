@@ -1,0 +1,10 @@
+_template/
+dist
+dist-private
+node_modules
+resource
+src/icon
+static-cache
+
+public/*
+mock/*
